@@ -1,0 +1,53 @@
+{
+  "contracts": {
+    "profile": {
+      "address": "0x0837624971AC403F747907614d53AaFBf796E35a",
+      "abi_file": "ABI/profile_abi.json"
+    },
+    "balance": {
+      "address": "0x67fa2887914fA3729e9EED7630294Fe124f417A0",
+      "abi_file": "ABI/balance_abi.json"
+    },
+    "seedContract": {
+      "address": "0x52E383e385131bd9190De6F61DdDCD42c21b33c1",
+      "abi_file": "ABI/seedvendor_abi.json"    
+    },
+    "cropsContract": {
+      "address": "0x3E99d1A52562454bF26D7C7112a303413A56BC08",
+      "abi_file": "ABI/crops_abi.json"
+    },
+    "seeds_balance": {
+      "address": "0x3E99d1A52562454bF26D7C7112a303413A56BC08",
+      "abi_file": "ABI/seeds_balance_abi.json"
+    },
+    "farmContract": {
+      "address": "0xf6F795eb013A2Ce8659038666bF0aE883F326eBD",
+      "abi_file": "ABI/farmContract_abi.json"
+    },
+    "plantCropsContract": {
+      "address": "0xf6F795eb013A2Ce8659038666bF0aE883F326eBD",
+      "abi_file": "ABI/plantCrops_abi.json"
+    },
+    "farmer": {
+      "address": "0x1Cc965C0dcde44697C58212571d18DBD61C55830",
+      "abi_file": "ABI/farmer_abi.json"
+    }
+  },
+  "seed_prices": {
+    "feeble": 1,
+    "pico": 20,
+    "basic": 100,
+    "premium": 800
+  },
+  "network": {
+    "name": "Blast Mainnet",
+    "rpc_url": "https://rpc.blast.io",
+    "chain_id": 81457,
+    "currency_symbol": "ETH",
+    "block_explorer": "https://blastscan.io",
+    "gas_settings": {
+      "maxPriorityFeePerGas": "0.1",
+      "maxFeePerGas": "0.1"
+    }
+  }
+}

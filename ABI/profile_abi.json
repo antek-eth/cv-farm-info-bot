@@ -1,0 +1,31 @@
+[
+    {
+        "constant": true,
+        "inputs": [{"name": "_address", "type": "address"}],
+        "name": "getProfile",
+        "outputs": [
+            {
+                "type": "tuple",
+                "components": [
+                    {"name": "playerName", "type": "string"},
+                    {"name": "referral", "type": "address"},
+                    {"name": "referralCode", "type": "string"},
+                    {"name": "profilePictureId", "type": "uint256"},
+                    {"name": "exp", "type": "uint256"},
+                    {"name": "farmLevel", "type": "uint256"},
+                    {"name": "profileHarvestBonus", "type": "uint256"},
+                    {"name": "lockedBalance", "type": "uint256"},
+                    {"name": "freeFeebleRolls", "type": "uint256"},
+                    {"name": "freePicoRolls", "type": "uint256"},
+                    {"name": "freeSeedRolls", "type": "uint256"},
+                    {"name": "freePremiumSeedRolls", "type": "uint256"},
+                    {"name": "claimedSage", "type": "bool"},
+                    {"name": "claimedWage", "type": "bool"}
+                ]
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

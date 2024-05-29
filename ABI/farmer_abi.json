@@ -1,0 +1,24 @@
+[
+    {
+        "type": "function",
+        "name": "getFarmerInfo",
+        "inputs": [{"name": "_addr", "type": "address"}],
+        "outputs": [
+            {
+                "name": "plots",
+                "type": "tuple[30]",
+                "components": [
+                    {"name": "cropId", "type": "uint256"},
+                    {"name": "plantTimestamp", "type": "uint256"},
+                    {"name": "boostModifier", "type": "uint8"}
+                ]
+            },
+            {
+                "name": "pendingRewards",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view"
+    }
+]
+

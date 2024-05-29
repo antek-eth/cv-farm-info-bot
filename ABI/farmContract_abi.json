@@ -1,0 +1,1373 @@
+[
+    {
+        "type": "constructor",
+        "inputs": [
+            {
+                "name": "_relayer",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [],
+        "name": "BLAST",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [],
+        "name": "DEFAULT_ADMIN_ROLE",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [],
+        "name": "GAS_MANAGER_ROLE",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [],
+        "name": "LOCKED_RATIO",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [],
+        "name": "MANAGER_ROLE",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [],
+        "name": "configureBlast",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "cropInfo",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "reward",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "lifeExpectancy",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "",
+                "type": "uint8",
+                "baseType": "uint8",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "farmLevelCost",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "farmerPlotsModifiers",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_addr",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "getFarmPlots",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_addr",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "getFarmPlotsModifiers",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_addr",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "getFarmPlotsTimestamps",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_addr",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "getFarmerInfo",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "plots",
+                "type": "tuple[30]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": 30,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "tuple",
+                    "baseType": "tuple",
+                    "components": [
+                        {
+                            "name": "cropId",
+                            "type": "uint256",
+                            "baseType": "uint256",
+                            "components": null,
+                            "arrayLength": null,
+                            "arrayChildren": null
+                        },
+                        {
+                            "name": "plantTimestamp",
+                            "type": "uint256",
+                            "baseType": "uint256",
+                            "components": null,
+                            "arrayLength": null,
+                            "arrayChildren": null
+                        },
+                        {
+                            "name": "boostModifier",
+                            "type": "uint8",
+                            "baseType": "uint8",
+                            "components": null,
+                            "arrayLength": null,
+                            "arrayChildren": null
+                        }
+                    ],
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            },
+            {
+                "name": "pendingRewards",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_addr",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "getFarmerPendingRewards",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "reward",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_level",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "getLevelInfo",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "f",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "h",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "pure",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "role",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "getRoleAdmin",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "role",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "account",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "grantRole",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_plotIndices",
+                "type": "uint256[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            }
+        ],
+        "name": "harvestCrops",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "role",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "account",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "hasRole",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool",
+                "baseType": "bool",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_cropsIds",
+                "type": "uint256[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            },
+            {
+                "name": "_plotIndices",
+                "type": "uint256[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            }
+        ],
+        "name": "plantCrops",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [],
+        "name": "readGasParams",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "etherSeconds",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "etherBalance",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "lastUpdated",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "",
+                "type": "uint8",
+                "baseType": "uint8",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [],
+        "name": "relayer",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_plotIndices",
+                "type": "uint256[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            }
+        ],
+        "name": "removeCrops",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "role",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "account",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "renounceRole",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "role",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "account",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "revokeRole",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_crops",
+                "type": "tuple[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "tuple",
+                    "baseType": "tuple",
+                    "components": [
+                        {
+                            "name": "reward",
+                            "type": "uint256",
+                            "baseType": "uint256",
+                            "components": null,
+                            "arrayLength": null,
+                            "arrayChildren": null
+                        },
+                        {
+                            "name": "lifeExpectancy",
+                            "type": "uint256",
+                            "baseType": "uint256",
+                            "components": null,
+                            "arrayLength": null,
+                            "arrayChildren": null
+                        }
+                    ],
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            }
+        ],
+        "name": "setCrops",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_addr",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "_crops",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "setFarmPlotsCrops",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_addr",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "_modifiers",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "setFarmPlotsModifiers",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_addr",
+                "type": "address",
+                "baseType": "address",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "_plantTimestamps",
+                "type": "uint256[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            }
+        ],
+        "name": "setFarmPlotsTimestamps",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_level",
+                "type": "uint8[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint8",
+                    "baseType": "uint8",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            },
+            {
+                "name": "_costs",
+                "type": "uint256[]",
+                "baseType": "array",
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            }
+        ],
+        "name": "setLevelCosts",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_ratio",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "setLockedRatio",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "interfaceId",
+                "type": "bytes4",
+                "baseType": "bytes4",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "supportsInterface",
+        "constant": true,
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool",
+                "baseType": "bool",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "function",
+        "inputs": [
+            {
+                "name": "_level",
+                "type": "uint8",
+                "baseType": "uint8",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "upgradeFarm",
+        "constant": false,
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "payable": false,
+        "gas": null
+    },
+    {
+        "type": "event",
+        "inputs": [
+            {
+                "name": "user",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "level",
+                "type": "uint256",
+                "baseType": "uint256",
+                "indexed": false,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "FarmUpgrade",
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "inputs": [
+            {
+                "name": "user",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "baseType": "uint256",
+                "indexed": false,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "Gather",
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "inputs": [
+            {
+                "name": "user",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "_cropIds",
+                "type": "uint256[]",
+                "baseType": "array",
+                "indexed": false,
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            }
+        ],
+        "name": "HarvestCrops",
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "inputs": [
+            {
+                "name": "user",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "baseType": "uint256",
+                "indexed": false,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "HarvestLocked",
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "inputs": [
+            {
+                "name": "user",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "name",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "indexed": false,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "NameChange",
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "inputs": [
+            {
+                "name": "user",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "_cropIds",
+                "type": "uint256[]",
+                "baseType": "array",
+                "indexed": false,
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            },
+            {
+                "name": "_plotIndices",
+                "type": "uint256[]",
+                "baseType": "array",
+                "indexed": false,
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            }
+        ],
+        "name": "PlantCrops",
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "inputs": [
+            {
+                "name": "user",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "referrer",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "amount",
+                "type": "uint256",
+                "baseType": "uint256",
+                "indexed": false,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "ReferralReward",
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "inputs": [
+            {
+                "name": "user",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "_cropIds",
+                "type": "uint256[]",
+                "baseType": "array",
+                "indexed": false,
+                "components": null,
+                "arrayLength": -1,
+                "arrayChildren": {
+                    "name": "",
+                    "type": "uint256",
+                    "baseType": "uint256",
+                    "components": null,
+                    "arrayLength": null,
+                    "arrayChildren": null
+                }
+            }
+        ],
+        "name": "RemoveCrops",
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "inputs": [
+            {
+                "name": "role",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "previousAdminRole",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "newAdminRole",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "RoleAdminChanged",
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "inputs": [
+            {
+                "name": "role",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "account",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "sender",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "RoleGranted",
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "inputs": [
+            {
+                "name": "role",
+                "type": "bytes32",
+                "baseType": "bytes32",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "account",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "sender",
+                "type": "address",
+                "baseType": "address",
+                "indexed": true,
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "RoleRevoked",
+        "anonymous": false
+    },
+    {
+        "type": "error",
+        "inputs": [
+            {
+                "name": "providedIndex",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            },
+            {
+                "name": "maxIndex",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "InvalidPlotIndex"
+    },
+    {
+        "type": "error",
+        "inputs": [
+            {
+                "name": "seedId",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "InvalidSeedId"
+    },
+    {
+        "type": "error",
+        "inputs": [
+            {
+                "name": "plotIndex",
+                "type": "uint256",
+                "baseType": "uint256",
+                "components": null,
+                "arrayLength": null,
+                "arrayChildren": null
+            }
+        ],
+        "name": "PlotNotEmpty"
+    }
+]
